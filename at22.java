@@ -13,9 +13,9 @@ public class at22 {
 		int candidato3 = 0;
 
 		System.out.println("Insira o número total de volantes:");
-		int volantes = input.nextInt();
+		int votantes = input.nextInt();
 
-		for (int i = 1; i <= volantes; i++) {
+		for (int i = 1; i <= votantes; i++) {
 			System.out.println("Insira o número do candidato:  1 - Candidato 1; 2 - Candidato 2; 3 - Candidato 3");
 			int candidato = input.nextInt();
 
