@@ -17,7 +17,7 @@ public class at33 {
 		double valor1, valor2, valor3, valor4, valor5;
 		double juros1, juros2, juros3, juros4, juros5;
 		
-		System.out.println("Digite o valor da dívida: ");
+		System.out.println("Informe o valor da dívida: ");
 		div = input.nextDouble();
 		
 		juros1 = 0;
@@ -36,15 +36,15 @@ public class at33 {
 		
 		for(int i = 1; i <= 5; i++) {
 			if( i == 1) 
-				System.out.println("R$ " + div + " ------------  " + juros1 + " ------------------- " + parcela1 + " --------------- R$ " + valor1);
+				System.out.println("R$ " + (div+juros1) + "   ----------------  " + juros1 + " ---------------- " + parcela1 + " ---------------- R$ " + valor1);
 			else if(i == 2)
-				System.out.println("R$ " + div + " ------------  " + juros2 + " ------------------- " + parcela2 + " --------------- R$ " + valor2);
+				System.out.println("R$ " + (div+juros2) + " ----------------  " + juros2 + " ---------------- " + parcela2 + " ---------------- R$ " + valor2);
 			else if(i == 3)
-				System.out.println("R$ " + div + " ------------  " + juros3 + " ------------------- " + parcela3 + " --------------- R$ " + valor3);
+				System.out.println("R$ " + (div+juros3) + " ----------------  " + juros3 + " ---------------- " + parcela3 + " ---------------- R$ " + valor3);
 			else if(i == 4)
-				System.out.println("R$ " + div + " ------------  " + juros4 + " ------------------- " + parcela4 + " --------------- R$ " + valor4);
+				System.out.println("R$ " + (div+juros4) + " ----------------  " + juros4 + " ---------------- " + parcela4 + " ---------------- R$ " + valor4);
 			else if(i == 5)
-				System.out.println("R$ " + div + " ------------  " + juros5 + " ------------------- " + parcela5 + " --------------- R$ " + valor5);
+				System.out.println("R$ " + (div+juros5) + " ----------------  " + juros5 + " ---------------- " + parcela5 + " ---------------- R$ " + valor5);
 		}
 			
 		input.close();
