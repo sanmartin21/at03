@@ -15,7 +15,7 @@ public class at20 {
 		int cont = input.nextInt();
 		for (int i = 1; i <= cont; i++) {
 			System.out.println("Digite a nota:");
-			float nota = input.nextInt();
+			float nota = input.nextFloat();
 			soma = soma + nota;
 		}
 		media = soma / cont;
