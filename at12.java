@@ -13,6 +13,9 @@ public class at12 {
 		System.out.println("Insira o n−ésimo termo:");
 		int n = input.nextInt();
 		
+		System.out.println(num2);
+		System.out.println(num);
+		
 		for (int i = 0; i <= n; i++) {
 			num = num + num2;
             num2 = num - num2;
