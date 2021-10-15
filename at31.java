@@ -19,7 +19,7 @@ public class at31 {
 			System.out.println("Insira a altura do aluno: ");
 			int alt = input.nextInt();
 			
-			if( i == 1) {
+			if( i == 0) {
 				alto = alt;
 				numalto = num;
 				baixo = alt;
@@ -37,9 +37,9 @@ public class at31 {
 		}
 		
 		System.out.println("Número do aluno mais alto: " + numalto);
-		System.out.println("O aluno mais altos possuí: " + alto + "centímetros.");
+		System.out.println("O aluno mais altos possuí: " + alto + " centímetros.");
 		System.out.println("Número do aluno mais baixo: " + numbaixo);
-		System.out.println("O aluno mais altos possuí: " + baixo + "centímetros.");
+		System.out.println("O aluno mais altos possuí: " + baixo + " centímetros.");
 		input.close();	
 	}
 
