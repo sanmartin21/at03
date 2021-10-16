@@ -21,7 +21,7 @@ public class at28 {
 			System.out.println("Insira a temperatura:");
 			tempe = input.nextFloat();
 
-			if (i == 1) {
+			if (i == 0) {
 				maior = tempe;
 				menor = tempe;
 				soma = soma + tempe;
